@@ -1,0 +1,16 @@
+import java.util.*;
+public class SumOfOddNumbers
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int n,i,sum=0;
+	    System.out.println("Enter value of n odd number");
+	    n= sc.nextInt();
+	    for(i=1;i<=n;i++){
+	       if(i%2==1){
+	           sum=sum+i;
+	       }
+	    }
+	    System.out.println("Sum= "+sum);
+	}
+}
